@@ -48,7 +48,7 @@ export default function Home() {
 
             {data.map((meal)=><>
 
-           <div className="w-[25%] px-4">
+           <div className="lg:w-[25%] px-4">
              <div className=" p-3 flex justify-center items-center flex-col rounded-xl bg-white">
                 <img src={meal.strMealThumb} className="w-[130px] rounded-full" alt="" />
                 <h4 className="my-5">{meal.strMeal.split(" ").slice(0,2).join(" ")}</h4>
